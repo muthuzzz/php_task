@@ -35,7 +35,12 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
        }
        }
 }
+else
+{
+    echo "enter a valid amount in numbers only";
 }
+}
+
 ?>
 </body>
 </html>
